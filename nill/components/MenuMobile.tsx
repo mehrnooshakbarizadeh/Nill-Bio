@@ -1,9 +1,10 @@
 import React from "react";
-import { HomeIcon } from "@heroicons/react/solid";
-import { UserIcon } from "@heroicons/react/solid";
-import { BookOpenIcon } from "@heroicons/react/Outline";
-import { NewspaperIcon } from "@heroicons/react/Outline";
-import { AtSymbolIcon } from "@heroicons/react/Outline";
+import { HomeIcon, UserIcon } from "@heroicons/react/solid";
+import {
+  BookOpenIcon,
+  NewspaperIcon,
+  AtSymbolIcon,
+} from "@heroicons/react/outline";
 import MenuAncher from "./MenuAncher";
 
 function MenuMobile() {
