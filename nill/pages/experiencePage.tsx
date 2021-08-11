@@ -48,8 +48,8 @@ export default function ExperiencePage() {
         </div>
         <PersonalInfo />
       </div>
-      <div className="bg-keppel-100 h-20">
-        <div className="bg-keppel-50 h-10"></div>
+      <div className="convexBackground">
+        <div className="convexBack"></div>
       </div>
       <div className=" bg-keppel-300 p-4">
         {jobLinks.map((joblink) => (

@@ -3,9 +3,6 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    letterSpacing: {
-      widest: "0.4em",
-    },
     colors: {
       keppel: {
         DEFAULT: "#38B2AC",

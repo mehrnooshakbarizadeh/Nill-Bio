@@ -23,7 +23,7 @@ function MenuMobile() {
         <MenuAncher href="/">
           <NewspaperIcon className="h-5 w-5 text-gray-600 m-2" />
         </MenuAncher>
-        <MenuAncher href="/">
+        <MenuAncher href="/askPage">
           <AtSymbolIcon className="h-5 w-5 text-gray-600 m-2" />
         </MenuAncher>
       </nav>

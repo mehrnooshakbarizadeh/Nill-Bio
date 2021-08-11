@@ -29,10 +29,11 @@ export default function EducationalExp() {
     <>
       <Header />
       <BreadcrumbBar />
-      <div className="flex justify-end items-center p-8">
+      <div className="flex justify-end items-center p-8 ">
         <div className="flex-grow">
           <PersonalImage />
         </div>
+
         <PersonalInfo />
       </div>
 

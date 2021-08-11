@@ -6,3 +6,22 @@
 body {
   font-family: "nazanin"
 } */
+
+.convexBack {
+  border-bottom-right-radius: 70% 100%;
+  border-bottom-left-radius: 17% 100%;
+  margin-top: -23px;
+  width: 120%;
+  background-color: #fff;
+  position: absolute;
+  height: 107%;
+  left: -20%;
+}
+.convexBackground {
+  z-index: -19;
+  background-color: #7bd5d1;
+  overflow: hidden;
+  position: relative;
+  height: 306px;
+  margin-top: -199px;
+}
