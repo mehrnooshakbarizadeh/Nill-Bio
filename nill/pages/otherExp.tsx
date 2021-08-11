@@ -20,6 +20,10 @@ const timelines = [
 export default function OtherExp() {
   return (
     <>
+    <header>
+    <meta name='description' content="Other Experience Page"></meta>
+    <title>Other Experience</title>
+    </header>
       <Header />
       <BreadcrumbBar />
       <div className="flex justify-end items-center p-8">

@@ -29,6 +29,10 @@ export default function EducationalExp() {
     <>
       <Header />
       <BreadcrumbBar />
+      <header>
+        <meta name='description' content="Edocation Page"></meta>
+        <title>Educational Experience</title>
+      </header>
       <div className="flex justify-end items-center p-8 ">
         <div className="flex-grow">
           <PersonalImage />

@@ -42,6 +42,10 @@ export default function ExperiencePage() {
     <>
       <Header />
       <BreadcrumbBar />
+      <header>
+      <meta name='description' content="Experience Page"></meta>
+      <title>Experience Page</title>
+      </header>
       <div className="flex flex-end items-center p-6">
         <div className="flex-grow ">
           <PersonalImage />

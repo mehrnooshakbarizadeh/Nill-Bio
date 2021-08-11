@@ -14,8 +14,8 @@ function MenuAncher({
 
   return (
     <>
-      <Link href={href}>
-        <a className={selected ? "text-blue-400" : "text-gray-300"}>
+      <Link href={href} >
+        <a className={selected ? "text-blue-400" : "text-gray-300"} >
           {children}
         </a>
       </Link>

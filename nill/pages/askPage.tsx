@@ -20,6 +20,10 @@ function AskPage() {
     <>
       <Header />
       <BreadcrumbBar />
+      <head>
+        <title>Ask Page</title>
+        <meta name='description' content="Ask Page"></meta>
+      </head>
       <header>
         <div className="flex justify-end items-center p-8">
           <div className="flex-grow">
@@ -32,11 +36,11 @@ function AskPage() {
       <div className="convexBackground">
         <div className="convexBack"></div>
       </div>
-          <h6 className='text-keppel-900 p-2 text-center font-bold'>Ask of Niloofar every thing you want</h6>
+          <h6 lang="en" className='text-keppel-900 p-2 text-center font-bold'>Ask of Niloofar every thing you want</h6>
         <form className='w-full max-w-sm mt-12 mb-4 mx-auto'>
-          <input value={email} onChange={handleChangeEmail} className=' pb-4 border-b-2 border-keppel-500 mb-4 w-full text-gray-700 focus:outline-none' type="email" placeholder='Example@gmail.com'></input>
-          <textarea value={question} onChange={handleChangeQuestion} className=' w-full border-b-2 border-keppel-500 text-gray-700 ' rows={5} name='question' placeholder='Question...'></textarea>
-          <button className=' p-2 rounded-sm bg-keppel-500 text-keppel-WHITE mt-4' type='button'>Send to Niloofar</button>
+          <input name='email' value={email} onChange={handleChangeEmail} className=' pb-4 border-b-2 border-keppel-500 mb-4 w-full text-gray-700 focus:outline-none' type="email" placeholder='Example@gmail.com'></input>
+          <textarea name='question' value={question} onChange={handleChangeQuestion} className=' w-full border-b-2 border-keppel-500 text-gray-700 ' rows={5} name='question' placeholder='Question...'></textarea>
+          <button name='submit' className=' p-2 rounded-sm bg-keppel-500 text-keppel-WHITE mt-4' type='button'>Send to Niloofar</button>
         </form>
       </main>
     </>

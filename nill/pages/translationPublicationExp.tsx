@@ -36,6 +36,10 @@ const timelines = [
 export default function TranslationPublicationExp() {
   return (
     <>
+    <header>
+    <meta name='description' content="ranslation Article Page"></meta>
+    <title>Translation Article Page</title>
+    </header>
       <Header />
       <BreadcrumbBar />
       <div className="flex justify-end items-center p-8">

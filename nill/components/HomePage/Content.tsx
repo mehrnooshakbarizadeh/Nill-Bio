@@ -3,14 +3,14 @@ import React from "react";
 function Content() {
   return (
     <>
-      <h3 className="p-6 font-extrabold text-3xl ">Niloofar Rahmanian</h3>
-      <p className="leading-7 p-6 text-center text-gray-600">
+      <h3 className="p-6 font-extrabold text-3xl " lang="en">Niloofar Rahmanian</h3>
+      <p className="leading-7 p-6 text-center text-gray-600" lang="en">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In rem aut nam
         qui quis aliquid laboriosam eius assumenda, odit quisquam rerum
         consequuntur, numquam laudantium illum architecto fuga inventore saepe
         nulla.
       </p>
-      <p className="leading-7 p-6 pt-0 text-center text-gray-600">
+      <p className="leading-7 p-6 pt-0 text-center text-gray-600" lang="en">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In rem aut nam
         qui quis aliquid laboriosam eius assumenda, odit quisquam rerum
         consequuntur, numquam laudantium illum architecto fuga inventore saepe

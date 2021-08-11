@@ -32,6 +32,10 @@ const timelines = [
 export default function ScienceExp() {
   return (
     <>
+    <header>
+    <meta name='description' content="Science Experience Page"></meta>
+    <title>Science Experience</title>
+    </header>
       <Header />
       <BreadcrumbBar />
       <div className="flex justify-end items-center p-8">

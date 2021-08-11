@@ -29,6 +29,10 @@ export default function EnglishExp() {
     <>
       <Header />
       <BreadcrumbBar />
+      <header>
+      <meta name='description' content="English Experience Page"></meta>
+      <title>English Experience</title>
+      </header>
       <div className="flex justify-end items-center p-8">
         <div className="flex-grow">
           <PersonalImage />

@@ -7,6 +7,10 @@ import SocialApp from "../components/HomePage/SocialApp";
 function HomePage() {
   return (
     <>
+    <header>
+    <meta name='description' content="Home Page"></meta>
+    <title>Home Page</title>
+    </header>
       <Header />
       <div className="flex flex-col items-center pt-8 pb-8">
         <PersonalImage />
