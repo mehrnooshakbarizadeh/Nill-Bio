@@ -10,7 +10,9 @@ export default function TimeLine({
   return (
     <>
       <div className="convexBackground">
-        <div className="convexBack"></div>
+        <div className="convexMiddleBack">
+          <div className="convexBack"></div>
+        </div>
       </div>
       <div className="bg-keppel-300 p-4">{children}</div>
     </>

@@ -17,6 +17,16 @@ body {
   height: 107%;
   left: -20%;
 }
+.convexMiddleBack {
+  border-bottom-right-radius: 100% 100%;
+  border-bottom-left-radius: 20% 100%;
+  margin-top: -23px;
+  width: 124%;
+  background-color: #b0f0ed;
+  position: absolute;
+  height: 107%;
+  left: -23%;
+}
 .convexBackground {
   z-index: -19;
   background-color: #7bd5d1;
